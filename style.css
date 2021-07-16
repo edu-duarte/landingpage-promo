@@ -1,0 +1,605 @@
+body {
+	background-color: rgb(108, 146, 228);
+}
+
+.topo {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    justify-content:flex-end;
+    align-items: top;
+    align-content: center;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: calc(50% - 100px);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.naveg1 {
+    font-family:'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-top: 10px;
+    background-color: white;
+    width: 120px; 
+    height: 22px;
+    border-radius: 3px;
+    border-style:outset;
+    text-align: center;
+
+}
+
+.naveg1:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.naveg2 {
+    font-family:'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-top: 10px;
+    background-color: white;
+    width: 180px; 
+    height: 22px;
+    border-radius: 3px;
+    border-style:outset;
+    text-align: center;
+
+}
+
+.naveg2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.naveg3 {
+    font-family:'Roboto', sans-serif;;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-top: 10px;
+    background-color: white;
+    width: 120px; 
+    height: 22px;
+    border-radius: 3px;
+    border-style:outset;
+    text-align: center;
+
+}
+
+.naveg3:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.background1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: url("./img/bg2.jpg");
+    background-position-x: center;
+    background-position-y: -250px;
+    height: auto;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+}
+
+.container1 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.container2 {
+    font-family:'Roboto', sans-serif;;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cadastro {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Roboto', sans-serif;;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.emailStyle {
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    border-style: outset;
+    border-width: 2px;
+}
+
+.botao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+}
+
+.inputErrado {
+    border: 2px solid red;
+}
+
+.inputCerto {
+    border: 2px solid green;
+}
+
+.promo {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.celulares{
+    background-image: url(./img/celulares.jpg);
+    background-size: 550px;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -65px;
+    background-position-y: -10px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+}
+
+
+.notebooks{
+    background-image: url(./img/notebooks.jpg);
+    background-size: 500px;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -65px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+}
+
+.impressoras{
+    background-image: url(./img/impressoras.png);
+    background-color: white;
+    background-size: 360px;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -10px;
+    background-position-y: 10px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+}
+
+.eletro{
+    background-image: url(./img/eletro.jpg);
+    background-size: 400px;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -20px;
+    background-position-y: -20px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+}
+
+.livros{
+    background-image: url(./img/livros.jpg);
+    background-size: 370px;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -8px;
+    background-position-y: -10px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+}
+
+.celulares2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+.celulares2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.notebooks2{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+}
+
+.notebooks2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.impressoras2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+}
+
+.impressoras2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.eletro2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+}
+
+.eletro2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.livros2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+}
+
+.livros2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.playstation{
+    background-image: url(./img/ps5.jpg);
+    background-size: 440px;
+    background-color: #888;
+    width: 350px; 
+    height: 280px;
+    background-position-x: -47px;
+    background-position-y: -10px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+}
+
+.playstation2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+.playstation2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.fone{
+    background-image: url(./img/fone.jpg);
+    background-size: 250px;
+    background-color: white;
+    width: 350px; 
+    height: 280px;
+    background-position-x: 40px;
+    background-position-y: 5px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+}
+
+.fone2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+.fone2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.nintendo{
+    background-image: url(./img/nintendo.jpg);
+    background-size: 340px;
+    background-color: white;
+    width: 350px; 
+    height: 280px;
+    background-position-x: 4px;
+    background-position-y: 4px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+}
+
+.nintendo2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: -2px;
+    padding-top: 20px;
+    background-color:rgb(72, 117, 252);
+    width: 350px; 
+    height: 40px;
+    border-radius: 5px;
+    border-style:outset;
+    border-width: 2px;
+    text-align: center;
+
+}
+
+.nintendo2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 70, 133);
+    color: rgb(255, 255, 255);
+}
+
+.rodape{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(228, 228, 228);
+    background-position-x: center;
+    background-position-y: -250px;
+    height: auto;
+    border-radius: 15px;
+    border-style:outset;
+    justify-content: center;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 800px) {
+
+    /* Isso serve para quando o usuário estiver acessando por um dispositivo mobile*/
+    .background1 {
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .rodape {
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .promo{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .celulares{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .celulares2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .notebooks{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .notebooks2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .impressoras{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .impressoras2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .livros{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:rgb(231, 211, 192);
+    }
+    .livros2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .eletro{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .eletro2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .playstation{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .playstation2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .fone{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fone2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+    .nintendo{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nintendo2{
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 0;
+    }
+}
